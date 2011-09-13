@@ -215,7 +215,7 @@ gmServiceGmail.prototype = {
     // Check if the email is hosted
     if (this.isHosted)
     {
-      this._loginURL = "https://accounts.google.com/a/" + this.domain + "/LoginAction2?service=mail";
+      this._loginURL = "https://www.google.com/a/" + this.domain + "/LoginAction2";
       this._checkURL = "https://mail.google.com/a/" + this.domain + "/?";
       this._atomURL = "https://mail.google.com/a/" + this.domain + "/feed/atom/";
     }

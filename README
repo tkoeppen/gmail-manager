@@ -1,13 +1,24 @@
 This is just a temporary fork of http://www.longfocus.com/firefox/gmanager/
 
-Sadly, the source code of the gmail-manager plugin isn't on github and the plugin update cycles are quite slow.
-
+Sadly, the source code of the gmail-manager plugin isn't on github and the original author has not provided any plugin updates for multiple years.
 As Mozilla introduced the fantastic quick release cycles for Firefox we need an up-to-date gmail-manager plugin.
 
 You can zip the source code yourself if you don't trust anybody else or use the pre-packed xpi under: https://github.com/tomondev/gmail-manager/tree/master/target
-(to install it from github download the xpi per raw view and open the file in Firefox)
 
-I still haven't reached the original author of the gmail-manager plugin, so please excuse my brevity to upload these small changes here.
+INSTALL
+-------
+
+Download the xpi file per raw view and open the file in Firefox)
+
+CHANGES
+-------
+
+NOTE: I haven't reached the original author of the gmail-manager plugin, so please excuse my brevity to upload these small changes here.
+
+2013-03-30 Version 0.6.4.1.6
+#12 compatibility with FF20.x to FF99.x
+Download: https://github.com/tomondev/gmail-manager/blob/master/target/gmail-manager-0.6.4.1.6-tomondev.xpi?raw=true
+( packed with zip -r target/gmail-manager-0.6.4.1.6-tomondev.xpi * -x .git\* target\* )
 
 2012-03-14 Version 0.6.4.1.5
 #9 compatibility with FF11.x to FF19.x

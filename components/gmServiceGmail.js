@@ -215,9 +215,11 @@ gmServiceGmail.prototype = {
     // Check if the email is hosted
     if (this.isHosted)
     {
-      this._loginURL = "https://www.google.com/a/" + this.domain + "/LoginAction2";
-      this._checkURL = "https://mail.google.com/a/" + this.domain + "/?";
+      this._loginURL = "https://accounts.google.com/accounts/ServiceLoginAuth?service=mail";
+      this._checkURL = "https://mail.google.com/mail/?";
       this._atomURL = "https://mail.google.com/a/" + this.domain + "/feed/atom/";
+      // hack 2014-02-24, google seem to have changed login for apps users
+      this._username = this.email;
     }
     else
     {

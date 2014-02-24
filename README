@@ -15,6 +15,10 @@ CHANGES
 
 NOTE: I haven't reached the original author of the gmail-manager plugin, so please excuse my brevity to upload these small changes here.
 
+#15 fix login for google app accounts
+Download: https://github.com/tomondev/gmail-manager/blob/master/target/gmail-manager-0.6.4.1.7-tomondev.xpi?raw=true
+( packed with zip -r target/gmail-manager-0.6.4.1.7-tomondev.xpi * -x .git\* target\* )
+
 2013-03-30 Version 0.6.4.1.6
 #12 compatibility with FF20.x to FF99.x
 Download: https://github.com/tomondev/gmail-manager/blob/master/target/gmail-manager-0.6.4.1.6-tomondev.xpi?raw=true

@@ -3,7 +3,7 @@
 // http://www.longfocus.com/firefox/gmanager/
 
 const EXTENSION = "Gmail Manager";
-const VERSION   = "0.6.4.1.6";
+const VERSION   = "0.6.4.1.7";
 const ID        = "{582195F5-92E7-40a0-A127-DB71295901D7}";
 const NAME      = "gmanager";
 const KEY       = "/gmanager";

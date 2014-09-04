@@ -1,3 +1,16 @@
+##################################################################################################
+
+*** BROKEN WITH FIREFOX 32.x+ ***
+
+THIS FIREFOX EXTENSION IS NO LONGER SUPPORTED.
+
+Sad news, but unfortunately I can't support this extension further and also do not use it anymore.
+Everybody is welcome to fork it and take over the maintenance for future Firefox upgrades.
+
+##################################################################################################
+
+
+
 This is just a temporary fork of http://www.longfocus.com/firefox/gmanager/
 
 Sadly, the source code of the gmail-manager plugin isn't on github and the original author has not provided any plugin updates for multiple years.
